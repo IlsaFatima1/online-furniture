@@ -8,7 +8,7 @@ const feature = () => {
 <>
 <div className="h-[355px] w-src">
     <div className=" top-[60px] sm:px-[450px] px-9 sm:py-0 py-14 sm:w-[500px] w-[400px] ">
-<h1 className="font-[clash display] w-[366px] h-[34px] font-normal leading-[33.6px] text-[24px] ">
+<h1 className="font-[clash display] sm:w-[366px] w-[300px] h-[34px] font-normal leading-[33.6px] text-[24px] ">
 What makes our brand different 
 </h1>
 
