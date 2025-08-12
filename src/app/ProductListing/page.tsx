@@ -6,6 +6,7 @@ import lamp from "@/components/assesst/lamp.png"
 import pink from "@/components/assesst/pink.png"
 import bottle from "@/components/assesst/bottle.png"
 import bluechair from "@/components/assesst/bluechair.png"
+import Link from "next/link"
 import yellow from "@/components/assesst/yellow.png"
 import multiple from "@/components/assesst/multiplechairs.png"
 import photo1 from "@/components/assesst/Photo (1).png"
@@ -13,10 +14,18 @@ import brownlamp from "@/components/assesst/brownlamp.png"
 import Menu from "@/components/menu8"
 import page from "@/components/assesst/Page Headers.png"
 const ProductListing = () => {
+const data:any =[]    
     return (
-        <div className="">
+        <>
+        {/* {data.map((item:any)=>{ */}
+            {/* return( */}
+            <div className="">
+
+            
             <Navbar />
-            <div className="py-5 hidden sm:block">
+            <div className="py-5 hidden sm:block" 
+            // key={item._id}
+            >
                 <Image src={frame} alt="background image" width={1634} height={209} />
             </div>
             <div className="py-5 sm:hidden ">
@@ -52,9 +61,13 @@ const ProductListing = () => {
                     <Image className ="mx-1 my-5" src={down} alt="" />
                     </button>
                 </div>
-            {/* first section images */}
+       
+                    {/* first section images */}
+
             <div className=" sm:flex hidden sm:gap-5 py-5 ">
                 {/* 1st picture */}
+                
+                {/* <Link href={`product/${item.productName}`}> */}
                 <div className=""> <div className=" py-[24px] sm:pl-[85px] ">
                     <Image className="sm:hidden" src={bluechair} alt='chair image ' width={280} height={375} />
                     <Image className=" hidden sm:block" src={bluechair} alt='chair image ' width={335} height={420} />
@@ -67,6 +80,8 @@ const ProductListing = () => {
                             £250
                         </p>
                     </div></div>
+                {/* </Link> */}
+        
                 {/* 2nd picture */}
 
                 <div className=""> <div className=" py-[24px] sm:pl-2 ">
@@ -237,6 +252,8 @@ const ProductListing = () => {
                 </div> </div>
                 <Menu />
         </div>
+            {/* )})} */}
+            </>
     )
 }
 export default ProductListing

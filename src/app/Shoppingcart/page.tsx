@@ -27,7 +27,7 @@ export default function Shoppingcart() {
                             <p className="font-normal sm:py-5 py-2 font-[satoshi] text-base leading-6">£85</p>
                             <p className="w-[6px] sm:hidden h-[22px]">1</p>
                         </div>
-                        <p className="  w-[6px] h-[22px] sm:block hidden px-[100px]">1</p>
+                        <p className="  w-[6px] h-[22px] sm:block hidden px-[220px]">1</p>
                         <p className="hidden sm:block w-[33px] h-[27px] px-[330px]"> £85</p>
                     </div>
                     <div className="">
@@ -37,10 +37,10 @@ export default function Shoppingcart() {
                             <div className="px-4"> <h1 className="font-normal font-[clash display] leading-7 text-base sm:text-xl">Basic white vase</h1>
                                 <p className="py-3 font-[satoshi] font-normal text-sm leading-[21px] w-[155px] sm:w-[179px] h-[42px]">Beautiful and simple this is
                                 one for the classics</p>
-                                <p className="font-normal sm:py-5 py-2 font-[satoshi] text-base leading-6">£85</p>
+                                <p className="font-normal sm:py-5 py-2 font-[satoshi] text-base  leading-6">£85</p>
                                 <p className="w-[6px] sm:hidden h-[22px]" > 1</p>
                             </div>
-                            <p className="hidden sm:block w-[6px] h-[22px] px-[100px]">1</p>
+                            <p className="hidden sm:block w-[6px] h-[22px] px-[220px]">1</p>
                             <p className="hidden sm:block w-[33px] h-[27px] px-[330px]"> £125</p>
                         </div>
                     </div>
